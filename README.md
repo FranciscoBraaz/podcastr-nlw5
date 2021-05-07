@@ -5,9 +5,11 @@
 A aplicação foi desenvolvida durante a  Next Level Week (5ª) da Rocketseat e se resume em uma plataforma para reprodução de podcast.
 
 <img src="https://i.imgur.com/f6vNrDj.png" alt="home inicial sem tocando podcast" width="100%"/>
-<div width="100%">
-<img src="https://i.imgur.com/vKEZctA.png" alt="home inicial sem tocar podcast" width="48%"/> <img align="right" src="https://i.imgur.com/ZI66CjO.png" alt="página do podcast específico" width="48%"/> 
+<div align="center">
+<img src="https://i.imgur.com/ZI66CjO.png" alt="página do podcast específico" width="80%"/> 
 </div>
+
+
 
 
 ### Tecnologias utilizadas
