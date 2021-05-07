@@ -8,7 +8,7 @@ export function Header() {
   });
   return (
     <header className={styles.headerContainer}>
-      <img src="logo.svg" alt="podcaster" />
+      <img src="/logo.svg" alt="podcaster" />
       <p>O melhor para você ouvir, sempre</p>
       <span>{currenteDate}</span>
     </header>

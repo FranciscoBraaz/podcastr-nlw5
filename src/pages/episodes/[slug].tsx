@@ -6,6 +6,7 @@ import { format, parseISO } from "date-fns";
 import ptBR from "date-fns/locale/pt-BR";
 import styles from "./episode.module.scss";
 import { usePlayer } from "../../components/contexts/PlayerContext";
+import Head from "next/head";
 
 type Episode = {
   id: string;
@@ -27,6 +28,9 @@ export default function Episode({ episode }: EpisodeProps) {
   const { play } = usePlayer();
   return (
     <div className={styles.episode}>
+      <Head>
+        <title>{episode.title} | Podcastr</title>
+      </Head>
       <div className={styles.thumbnailContainer}>
         <Link href="/">
           <button type="button">
