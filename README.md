@@ -41,3 +41,4 @@ A aplicação foi desenvolvida durante a  Next Level Week (5ª) da Rocketseat e 
 
 - [ ] Configurar um PWA
 - [ ] Design responsivo
+- [ ] Modo escuro
